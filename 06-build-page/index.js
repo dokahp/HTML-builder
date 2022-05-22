@@ -6,7 +6,7 @@ const projectDistName = 'project-dist';
 const projectDistPath = path.join(__dirname, projectDistName);
 
 const originalStylesPath = path.join(__dirname, 'styles');
-const bundlePath = path.join(projectDistPath, 'styles.css');
+const bundlePath = path.join(projectDistPath, 'style.css');
 
 
 async function mergeStyles() {
